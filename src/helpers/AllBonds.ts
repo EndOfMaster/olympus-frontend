@@ -25,7 +25,7 @@ export const dai = new StableBond({
   displayName: "DAI",
   bondToken: "DAI",
   payoutToken: "OHM",
-  v2Bond: false,
+  v2Bond: true,
   bondIconSvg: ["DAI"],
   bondContractABI: DaiBondContract,
   isBondable: {
@@ -59,8 +59,8 @@ export const dai = new StableBond({
       reserveAddress: "0x6b175474e89094c44da98b954eedeac495271d0f",
     },
     [NetworkId.TESTNET_RINKEBY]: {
-      bondAddress: "0xDea5668E815dAF058e3ecB30F645b04ad26374Cf",
-      reserveAddress: "0xB2180448f8945C8Cc8AE9809E67D6bd27d8B2f2C",
+      bondAddress: "0x840F754F912a5a537cd5F750003e9880dF17d834",
+      reserveAddress: "0x66bb55F31FDcc98d14Ec0C17D5535707CD99b93a",
     },
     [NetworkId.Localhost]: {
       bondAddress: "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
